@@ -1,0 +1,77 @@
+NodeJS: Express + MongoDB 
+
+Service
+	id 
+	name
+	description
+	slug 
+		
+	- Get all services
+	- Add/Edit new service
+	- Delete serviceId 
+	
+Service Tier 
+	id
+	name
+	serviceId
+	description
+	price
+	
+	- Get all service-tier by serviceId
+	- Add/Edit new service-tier for serviceId
+	- Delete serviceTierID 
+
+User Service
+	id
+	firstName
+	lastName
+	email
+	address
+	zipcode
+	state
+	country
+	paymentMode   PayPal, Stripe, Cash
+	serviceId
+	serviceTierID 
+
+	- Get all service by UserID
+	- Add checkout details 
+	
+	Service
+		website development
+			basic
+			intermediate
+			Advance
+		
+		Graphical design
+			Basic
+			Figma 
+			XD
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	
+	
